@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    font-family: sans-serif;
+}
 .container{
     margin: auto;
     max-width: 1110px;
@@ -80,6 +84,7 @@ header .soc{
     line-height: 55px;
     color:#181818 ;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 .main_banner p{
     font-family: sans-serif;
@@ -97,4 +102,102 @@ header .soc{
     font-size: 18px;
     text-decoration: none;
     margin-right: 20px;
+}
+.style{
+    padding-top: 70px;
+    padding-bottom: 140px;
+    background: #FFFFFF;
+}
+.style h3{
+    font-size: 38px;
+    line-height: 41px;
+    color: #181818;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.style_explanation{
+    display: flex;
+}
+.style p{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #181818;
+    margin-left: 30px;
+}
+.name h2{
+    display: inline-block;
+    font-size: 50px;
+    line-height: 55px;
+    color: #181818;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+.numbers{
+    display: flex;
+    margin-bottom: 120px;
+}
+.simple1,.simple2, .simple3, .simple4, .simple5{
+    display: flex;
+}
+.numbers h2{
+    display: inline-block;
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    font-family:Serif;
+    margin-right: 8px;
+}
+.numbers p{
+    display: inline-block;
+    padding-top: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.simple1{
+    margin-right: 67px;
+}
+.simple2{
+    margin-right: 43px;
+}
+.simple3{
+    margin-right: 28px;
+}
+.simple4{
+    margin-right: 90px;
+}
+.simple5 span{
+    margin-top: 16px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.price h3{
+    font-size: 38px;
+    line-height: 41px;
+    color: #181818;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.price_reason p{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+}
+.price_reason span{
+    display: block;
+    background: #2B59C3;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    padding-left: 13px;
+    padding-right: 7px;
+    padding-bottom: 11px;
 }

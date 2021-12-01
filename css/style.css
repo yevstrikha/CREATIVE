@@ -307,6 +307,7 @@ header .soc{
     margin-bottom: 25px;
 }
 .btn{
+    border: none;
     display: inline-block;
     font-family: '20 Kopeek';
     max-width: 228px;

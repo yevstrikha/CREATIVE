@@ -1,31 +1,6 @@
-@font-face {
-    font-family: '20 Kopeek';
-    src: url('../fonts/20Kopeek.eot');
-    src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/20Kopeek.woff2') format('woff2'),
-    url('../fonts/20Kopeek.woff') format('woff'),
-    url('../fonts/20Kopeek.ttf') format('truetype'),
-    url('../fonts/20Kopeek.svg#20Kopeek') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: '20 Kopeek';
-    src: url('../fonts/book/20Kopeek-Book.eot');
-    src: url('../fonts/book/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/book') format('woff2'),
-    url('../fonts/book') format('woff'),
-    url('../fonts/book') format('truetype'),
-    url('../fonts/book#20Kopeek-Book') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-h1,h2,h3,h4,h5,h6, p{
-    font-family: '20 Kopeek';
-}
+
+
 
 *{
     margin: 0;
@@ -228,113 +203,45 @@ header .soc{
     margin-right: 75px;
 }
 
-/*Guideline*/
-.guideline {
-    padding-bottom: 77px;
-}
+        /*<!--guidelines-->*/
 .guideline h2{
     text-align: left;
+    font-family: ;
     font-size: 38px;
-    line-height: 41px;
+    line-height: 42px;
     color: #181818;
-    font-weight: 400;
     margin-bottom: 15px;
 }
 .guideline_about{
     display: flex;
+    padding-bottom: 77px;
 }
-.guidline_text{
-    display: block;
-    margin-left: 16px;
+.guideline_text{
+    margin-left: 15px;
 }
 .text_top{
     padding: 11px 39px 18px 14px;
+    /*margin-left: 15px;*/
     background: #2B59C3;
     border-radius: 5px;
-    color: #FFFFFF;
+    color: white;
     margin-bottom: 15px;
 }
 .text_top h3{
     font-size: 26px;
     line-height: 29px;
-    font-weight: 400;
 }
-.text_top p{
+.guideline_text p{
     font-size: 18px;
     line-height: 25px;
-    font-weight: 400;
 }
-
 .text_bottom{
     font-size: 18px;
     line-height: 25px;
-    font-weight: 400;
     color: #181818;
     padding-left: 14px;
+    padding-right: 39px;
 }
-
-/*<!--APPLICATION-->*/
-.application{
-    padding-bottom: 21px;
-}
-.application h2{
-    font-weight: 400;
-    font-size: 38px;
-    color: #181818;
-    line-height: 42px;
-    margin-bottom: 11px;
-}
-
-.application h3{
-    font-weight: 400;
-    font-size: 26px;
-    color: #181818;
-    line-height: 29px;
-    margin-bottom: 27px;
-}
-.data{
-    max-width: 350px;
-    width: 100%;
-    font-size: 18px;
-    line-height: 25px;
-    padding: 23px ;
-    padding-left: 29px;
-    border: 1px solid #181818;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: #868686;
-    margin-right: 30px;
-    margin-bottom: 25px;
-}
-.btn{
-    border: none;
-    display: inline-block;
-    font-family: '20 Kopeek';
-    max-width: 228px;
-    width: 100%;
-    font-size: 18px;
-    line-height: 25px;
-    color: white;
-    padding: 23px ;
-    border-radius: 40px;
-    background: #2B59C3;
-}
-                 /*checkbox*/
-.check{
-    margin-right: 11px;
-    }
-.label_text{
-    font-size: 18px;
-    line-height: 25px;
-}
-.agree a{
-    text-decoration: none;
-    color: blue;
-}
-
-
-
-
 
 
 

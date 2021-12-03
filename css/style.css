@@ -1,6 +1,28 @@
+@font-face {
+    font-family: '20 Kopeek-Book';
+    src: url('../fonts/book/20Kopeek-Book.eot');
+    src: url('../fonts/book/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/book/20Kopeek-Book.woff2') format('woff2'),
+    url('../fonts/book/20Kopeek-Book.woff') format('woff'),
+    url('../fonts/book/20Kopeek-Book.ttf') format('truetype'),
+    url('../fonts/book/20Kopeek-Book.svg#20Kopeek-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-
-
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek.eot');
+    src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/20Kopeek.woff2') format('woff2'),
+    url('../fonts/20Kopeek.woff') format('woff'),
+    url('../fonts/20Kopeek.ttf') format('truetype'),
+    url('../fonts/20Kopeek.svg#20Kopeek') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 *{
     margin: 0;
@@ -37,6 +59,7 @@ header{
     padding-top: 31px;
 }
 header p{
+    font-family: '20 Kopeek';
     margin-left: 22px;
     font-size: 15px;
     line-height: 19px;
@@ -80,6 +103,7 @@ header .soc{
     line-height: 38px;
 }
 .main_banner h1{
+    font-family: '20 Kopeek-Book';
     font-size: 55px;
     line-height: 55px;
     color:#181818 ;
@@ -87,13 +111,14 @@ header .soc{
     font-weight: 400;
 }
 .main_banner p{
-    font-family: sans-serif;
+    font-family: '20 Kopeek-Book';
     font-size: 34px;
     line-height: 37px;
     margin-bottom: 65px;
     color:#181818 ;
 }
 .main_banner .btn{
+    font-family: '20 Kopeek';
     display: inline-block;
     padding: 23px 47px;
     background: #fff;
@@ -109,6 +134,7 @@ header .soc{
     background: #FFFFFF;
 }
 .style h3{
+    font-family: '20 Kopeek-Book';
     font-size: 38px;
     line-height: 41px;
     color: #181818;
@@ -119,6 +145,7 @@ header .soc{
     display: flex;
 }
 .style p{
+    font-family: '20 Kopeek';
     display: inline-block;
     font-size: 18px;
     line-height: 25px;
@@ -127,6 +154,7 @@ header .soc{
     margin-left: 30px;
 }
 .name h2{
+    font-family: '20 Kopeek-Book';
     display: inline-block;
     font-size: 50px;
     line-height: 55px;
@@ -136,6 +164,7 @@ header .soc{
 
 }
 .numbers{
+    font-family: '20 Kopeek-Book';
     display: flex;
     margin-bottom: 120px;
 }
@@ -143,6 +172,7 @@ header .soc{
     display: flex;
 }
 .numbers h2{
+    font-family: '20 Kopeek-Book';
     display: inline-block;
     font-size: 55px;
     line-height: 55px;
@@ -150,6 +180,7 @@ header .soc{
     margin-right: 8px;
 }
 .numbers p{
+    font-family: '20 Kopeek';
     display: inline-block;
     padding-top: 25px;
     font-size: 18px;
@@ -205,6 +236,7 @@ header .soc{
 
         /*<!--guidelines-->*/
 .guideline h2{
+    font-family: '20 Kopeek-Book';
     text-align: left;
     font-family: ;
     font-size: 38px;
@@ -228,14 +260,17 @@ header .soc{
     margin-bottom: 15px;
 }
 .text_top h3{
+    font-family: '20 Kopeek-Book';
     font-size: 26px;
     line-height: 29px;
 }
 .guideline_text p{
+    font-family: '20 Kopeek';
     font-size: 18px;
     line-height: 25px;
 }
 .text_bottom{
+    font-family: '20 Kopeek';
     font-size: 18px;
     line-height: 25px;
     color: #181818;
@@ -243,8 +278,62 @@ header .soc{
     padding-right: 39px;
 }
 
+        /*application form*/
+.application h2{
+    font-family: '20 Kopeek-Book';
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    margin-bottom: 11px;
+}
+.application h3{
+    font-family: '20 Kopeek-Book';
+    font-size: 26px;
+    line-height: 29px;
+    color: #181818;
+    margin-bottom: 27px;
+}
+form{
+    margin-bottom: 500px;
 
+}
+.application input{
+    box-sizing: border-box;
+    max-width: 350px;
+    width: 100%;
+    padding: 23px 29px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: solid 1px #181818;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #868686;
+}
+.btn{
+    box-sizing: border-box;
+    max-width: 228px;
+    width: 100%;
+    padding: 23px;
+    background: #2B59C3;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.checkbox{
+    margin-top: 21px;
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+}
 
-
-
-
+.application a {
+    font-family: '20 Kopeek';
+    text-decoration: none;
+}
+input.agree_check{
+    max-width: 18px;
+    margin-right: 11px;
+}

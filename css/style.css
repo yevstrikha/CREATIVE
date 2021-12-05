@@ -249,7 +249,7 @@ header .soc{
     margin-bottom: 53px;
 }
 
-.portfolio h3{
+.portfolio h2{
     display: inline-block;
     font-family: '20 Kopeek-Book';
     font-size: 55px;
@@ -311,8 +311,37 @@ header .soc{
 .creative_search{
     display: flex;
     margin-top: 83px;
+    justify-content: space-between;
 }
-
+.process h3{
+    font-family: "20 Kopeek-Book";
+    font-size: 26px;
+    line-height: 28px;
+    color: #181818;
+    font-weight: 400;
+    margin-top: 23px;
+}
+.steps{
+    margin-left: 30px;
+}
+.explanation{
+    display: flex;
+}
+.steps p{
+    display: inline-block;
+    font-family: "20 Kopeek";
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    font-weight: 400;
+}
+.steps span{
+    display: inline-block;
+    margin-top: 15px;
+    font-family: "20 Kopeek";
+    font-size: 15px;
+    line-height: 19px;
+}
 
 
 

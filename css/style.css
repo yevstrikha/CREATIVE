@@ -207,6 +207,9 @@ header .soc{
     line-height: 19px;
     font-weight: 400;
 }
+.price{
+    padding-bottom: 133px;
+}
 .price h3{
     font-size: 38px;
     line-height: 41px;
@@ -234,6 +237,85 @@ header .soc{
     margin-left: -13px;
     margin-right: 75px;
 }
+            /*portfolio*/
+.portfolio{
+    padding-bottom: 100px;
+}
+
+.portfolio_title{
+    margin-bottom: 100px;
+}
+.portfolio_title:last-child{
+    margin-bottom: 53px;
+}
+
+.portfolio h3{
+    display: inline-block;
+    font-family: '20 Kopeek-Book';
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    font-weight: 400;
+}
+.portfolio_info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 38px;
+    margin-bottom: 3px;
+}
+.portfolio a{
+    font-family: '20 Kopeek';
+    display: inline-block;
+    padding: 23px 47px;
+    border: solid 1px #181818;
+    border-radius: 40px;
+    color: #181818;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 90px;
+}
+.portfolio p{
+    font-family: "20 Kopeek";
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+}
+.portfolio .btn_portfolio{
+    font-family: '20 Kopeek';
+    display: inline-block;
+    padding: 23px 47px;
+    background: #2B59C3;
+    border: none;
+    border-radius: 40px;
+    color:#ffffff ;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    }
+
+/*process*/
+.process{
+    padding-bottom: 166px;
+}
+
+.process h2{
+    display: inline-block;
+    font-family: '20 Kopeek-Book';
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    font-weight: 400;
+}
+.creative_search{
+    display: flex;
+    margin-top: 83px;
+}
+
+
+
+
 
         /*<!--guidelines-->*/
 .guideline h2{

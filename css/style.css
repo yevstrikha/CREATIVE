@@ -28,6 +28,7 @@
     margin: 0;
     padding: 0;
 }
+a{text-decoration: none}
 
 .container{
     margin: auto;
@@ -164,7 +165,7 @@ header .soc{
     margin-bottom: 40px;
 
 }
-.numbers{
+.name .numbers{
     font-family: '20 Kopeek-Book';
     display: flex;
     margin-bottom: 120px;
@@ -188,19 +189,19 @@ header .soc{
     line-height: 25px;
     font-weight: 400;
 }
-.simple1{
-    margin-right: 67px;
+.name .simple1{
+    margin-right: 38px;
 }
-.simple2{
-    margin-right: 43px;
+.name .simple2{
+    margin-right: 13px;
 }
-.simple3{
-    margin-right: 28px;
+.name .simple3{
+    margin-right: 8px;
 }
-.simple4{
-    margin-right: 90px;
+.name .simple4{
+    margin-right: 60px;
 }
-.simple5 span{
+.name.simple5 span{
     margin-top: 16px;
     display: inline-block;
     font-size: 15px;
@@ -282,6 +283,11 @@ header .soc{
     line-height: 25px;
     color: #181818;
 }
+.portf_btn{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 600px;
+}
 .portfolio .btn_portfolio{
     font-family: '20 Kopeek';
     display: inline-block;
@@ -290,14 +296,15 @@ header .soc{
     border: none;
     border-radius: 40px;
     color:#ffffff ;
-    font-size: 18px;
+    font-size: 26px;
+    line-height: 29px;
     text-decoration: none;
     text-align: center;
     }
 
-/*process*/
+                /*process*/
 .process{
-    padding-bottom: 166px;
+    padding-bottom: 150px;
 }
 
 .process h2{
@@ -321,11 +328,24 @@ header .soc{
     font-weight: 400;
     margin-top: 23px;
 }
-.steps{
-    margin-left: 30px;
-}
+
 .explanation{
     display: flex;
+    max-width: 580px;
+    width: 100%;
+    justify-content: space-between;
+}
+.steps.one{
+    max-width: 166px;
+    width: 100%;
+}
+.steps.two{
+    max-width: 166px;
+    width: 100%;
+}
+.steps.three{
+    max-width: 200px;
+    width: 100%;
 }
 .steps p{
     display: inline-block;
@@ -342,9 +362,42 @@ header .soc{
     font-size: 15px;
     line-height: 19px;
 }
+                /*warranty*/
+.warranty{
+    background-image: url(../images/Rectangle32.jpg);
+    background-size: cover;
+    color: white;
+    padding-top: 97px;
+}
 
+.advantage{
+    /*padding-top: 282px;*/
+    padding-bottom: 80px;
+}
 
-
+.advantage h2{
+    font-family: "20 Kopeek-Book";
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 55px;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+.advantage .numbers{
+    display: flex;
+}
+.advantage .simple1,.simple2,.simple3,.simple4{
+    margin-right: 7px;
+}
+.advantage p{
+    padding-top: 24px;
+    font-family: "20 Kopeek";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 141px;
+    width: 100%;
+}
 
         /*<!--guidelines-->*/
 .guideline h2{
@@ -390,6 +443,9 @@ header .soc{
 }
 
         /*application form*/
+.application{
+    padding-bottom: 100px;
+}
 .application h2{
     font-family: '20 Kopeek-Book';
     font-size: 38px;
@@ -404,10 +460,7 @@ header .soc{
     color: #181818;
     margin-bottom: 27px;
 }
-form{
-    margin-bottom: 500px;
 
-}
 .application input{
     box-sizing: border-box;
     max-width: 350px;
@@ -422,6 +475,7 @@ form{
     color: #868686;
 }
 .btn{
+    display: block;
     box-sizing: border-box;
     max-width: 228px;
     width: 100%;
@@ -447,4 +501,127 @@ form{
 input.agree_check{
     max-width: 18px;
     margin-right: 11px;
+    margin-bottom: 30px;
+}
+            /*keep_in_touch*/
+.keep_in_touch{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color: white;
+}
+.contacts{
+    display: flex;
+}
+.your_contact{
+    margin-right: 120px;
+    max-width: 460px;
+    width: 100%;
+}
+.contacts h2{
+    font-family: "20 Kopeek-Book";
+    font-size: 34px;
+    line-height:37px;
+    font-weight: 400;
+    color: #181818;
+    margin-bottom: 31px;
+}
+.your_contact label{
+    font-family: "20 Kopeek";
+    font-size: 16px;
+    line-height: 22px;
+}
+.your_contact input{
+    display: block;
+    box-sizing: border-box;
+    max-width: 370px;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-family: "20 Kopeek";
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 21px;
+    border: solid 1px #181818;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.your_contact .contact_check{
+    display: inline-block;
+    max-width: 18px;
+    margin-top: 10px;
+    margin-right: 11px;
+    margin-bottom: 30px;
+}
+.our_contacts h3{
+    font-family: "20 Kopeek-Book";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29px;
+    color: #181818;
+}
+.our_contacts h3:first-of-type{
+    margin-bottom: 17px;
+    margin-top: 4px;
+}
+.our_contacts h3:last-of-type{
+    margin-top: 10px;
+}
+
+/*news_about*/
+.news_about{
+    padding-bottom: 30px;
+}
+.news_about h2{
+    font-family: "20 Kopeek-Book";
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 37px;
+    color: #181818;
+    margin-bottom: 31px;
+}
+.sources{
+    display: flex;
+    align-items: flex-start;
+}
+
+.news{
+    background-color: #2B59C3;
+    max-width: 210px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.sources p{
+    font-family: "20 Kopeek";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    padding: 6px 10px 14px;
+}
+.other p{
+    padding: 6px 3px 14px;
+}
+
+.sources p span{
+    font-family: "20 Kopeek";
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 18px;
+    color: white;
+    margin-top: 28px;
+}
+
+
+
+footer{margin-top: 30px;
+    margin-bottom: 20px;}
+footer p{
+
+    font-family: "20 Kopeek";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #181818;
 }

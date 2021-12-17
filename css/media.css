@@ -211,6 +211,44 @@ input.agree_check{
 .process h2{
 
 }
+                /*<!--style steps-->*/
+.column_title{
+    max-width: 146px;
+}
+.row_content h3{
+    font-size: 20px;
+    line-height: 22px;
+}
+.row_content h3{
+    font-size: 34px;
+    line-height: 37px;
+}
+.row_content p{
+    font-size: 14px;
+    line-height: 18px;
+}
+.cell{
+    max-width: 220px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

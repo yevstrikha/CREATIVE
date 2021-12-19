@@ -41,7 +41,7 @@ a{text-decoration: none}
     background-size: cover;
     background-position: center top;
     height: 100vh;
-    padding-top: 344px;
+    /*padding-bottom: 300px;*/
 }
 .main_banner.banner_2{
     background-image: url(../images/12.png);
@@ -52,13 +52,47 @@ a{text-decoration: none}
 .main_banner.banner_4{
     background-image: url(../images/14.png);
 }
-                        /*header*/
+
+.owl-nav .owl-prev{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    left: 2%;
+
+}
+
+.owl-nav .owl-prev:before {
+    content: "\f053";
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+.owl-nav .owl-next{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    right: 2%;
+
+}
+
+.owl-nav .owl-next:before {
+    content: "\f054";
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+
+/*header*/
 header{
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
     padding-top: 31px;
+    z-index: 2;
 }
 header p{
     font-family: '20 Kopeek';
@@ -104,7 +138,10 @@ header .soc{
     display: inline-block;
     line-height: 38px;
 }
-.main_banner h1{
+.position{
+    margin-top: -75px;
+}
+.position h1{
     font-family: '20 Kopeek-Book';
     font-size: 55px;
     line-height: 55px;
@@ -112,14 +149,14 @@ header .soc{
     margin-bottom: 30px;
     font-weight: 400;
 }
-.main_banner p{
+.position p{
     font-family: '20 Kopeek-Book';
     font-size: 34px;
     line-height: 37px;
     margin-bottom: 65px;
     color:#181818 ;
 }
-.main_banner .btn{
+.position .btn{
     font-family: '20 Kopeek';
     display: inline-block;
     padding: 23px 47px;
@@ -130,6 +167,12 @@ header .soc{
     text-decoration: none;
     text-align: center;
     margin-right: 20px;
+}
+.position{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 344px;
 }
                 /*STYLE*/
 .style{
@@ -755,28 +798,8 @@ footer p{
 }
 
 
-.logo{
-    animation: scale 3s 3;
-    display: inline-block;
-    position: relative;
-}
-@keyframes scale {
-    0%{
-        transform: scale(1);
-        bottom: 0;
 
-    }
-    50%{
-        bottom: -50px;
 
-    }
-    100%{
-        transform: scale(1.3);
-        bottom: 0;
-
-    }
-
-}
 
 
 

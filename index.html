@@ -10,9 +10,16 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
 
 </head>
 <body>
+<div id="dialog" title="Basic dialog">
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+</div>
+
+<button id="opener">Open Dialog</button>
 
 <header>
     <div class="container">
@@ -20,48 +27,51 @@
             <img src="images/logo.svg" alt="logo">
         </a>
         <div class="d_flex">
-        <p>Разрабатываем фирменные <br> стили с 2009 года</p>
+            <p>Разрабатываем фирменные <br> стили с 2009 года</p>
 
-        <ul>
-            <li>
-                <span>8 (495) 156-39-11</span>
-            </li>
-            <li>
-                <a href="#" class="soc" title="facebook" target="_blank">
-                    <img src="images/Vector.png" alt="facebook">
-                </a>
-            </li>
-            <li>
-                <a href="#" class="soc" title="instagram" target="_blank">
-                    <img src="images/Group8.svg" alt="instagram">
-                </a>
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    <span>8 (495) 156-39-11</span>
+                </li>
+                <li>
+                    <a href="#" class="soc" title="facebook" target="_blank">
+                        <img src="images/Vector.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="soc" title="instagram" target="_blank">
+                        <img src="images/Group8.svg" alt="instagram">
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </header>
-<div class="owl-carousel">
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-</div>
-<section class="main_banner">
+
+<div class="position">
     <div class="container">
-      <h1>Вам нужен фирменный <br> стиль или ребрендинг?</h1>
-      <p>Разработаем в срок от 10-ти дней</p>
-      <a href="#" class="btn">Портфолио</a>
-      <a href="#" class="btn">Оставить заявку</a>
+        <h1>Вам нужен фирменный <br> стиль или ребрендинг?</h1>
+        <p>Разработаем в срок от 10-ти дней</p>
+        <a href="#" class="btn">Портфолио</a>
+        <a href="#" class="btn">Оставить заявку</a>
     </div>
-</section>
+</div>
+
+<div class="owl-carousel">
+    <section class="main_banner"></section>
+
+    <section class="main_banner banner_2"></section>
+
+    <section class="main_banner banner_3"></section>
+    <section class="main_banner banner_4"></section>
+</div>
+
+
 
 <section class="styles">
     <div class="container">
         <div class="style">
-             <h2>Что такое фирменный стиль</h2>
+            <h2>Что такое фирменный стиль</h2>
             <div class="style_about">
                 <img src="images/Rectangle7.png" alt="">
                 <p>Это набор тех уникальных «признаков», по которым клиент отличит вас от других компаний. Фирменный стиль отражает миссию бренда, ценности, является способом его идентификации, формирует определённое восприятие в коммуникации с потребителями.
@@ -69,12 +79,12 @@
                     <br>
 
                     В идеале разработка корпоративного стиля должна происходить одновременно с созданием бизнеса и формированием его фундаментальных идей. Есть и второй вариант: бизнес существует определенное время и ему нужен перезапуск - это называется редизайн или ребрендинг: в мире жёсткой конкуренции важно быть «в тренде», успевать за изменениями в поведениях покупателя и “говорить” с ним на одном языке.</p>
-                
+
             </div>
         </div>
     </div>
 </section>
-                            <!--NAME-->
+<!--NAME-->
 <section class="name">
     <div class="container">
         <h2>Название и логотип – важные составляющие <br> фирменного стиля, но на этом всё только <br> начинается. Ниже основные элементы:</h2>
@@ -99,7 +109,7 @@
             <div class="simple5">
                 <h2>5</h2>
                 <p>Носители <br> фирменного <br> стиля <br>
-                <span>Этот набор варьируется в <br> зависимости                     от нужд и потребностей <br> компании:                          визитные карточки,
+                    <span>Этот набор варьируется в <br> зависимости                     от нужд и потребностей <br> компании:                          визитные карточки,
                     <br> фирменные бланки и прочая деловая <br>                     документация, упаковка, сувенирная <br>                        продукция, брендинг автотранспорта.
                 </span>
                 </p>
@@ -108,27 +118,27 @@
     </div>
 </section>
 
-                            <!--price-->
+<!--price-->
 <section class="values">
     <div class="container">
         <h2>Сколько стоит фирменный стиль?</h2>
-<div class="price">
-    <p>Каждая задача по разработке фирменного <br> стиля уникальна для нас — это новый вызов и <br> новые эмоции. Мы принципиально не
-        <br> предлагаем вам стандартизированные пакеты <br> “эконом”, “стандрат”, или “премиум”, мы не <br> штампуем, мы - создаем.
-        <br>
-        <br>
-        Стоимость разработки фирменного стиля в <br> нашем агентстве начинается от 120 000 руб., <br> финальную планку без брифинга определить
-        <br> невозможно - давайте созвонимся и обсудим <br> ваш проект!
-        <br>
+        <div class="price">
+            <p>Каждая задача по разработке фирменного <br> стиля уникальна для нас — это новый вызов и <br> новые эмоции. Мы принципиально не
+                <br> предлагаем вам стандартизированные пакеты <br> “эконом”, “стандрат”, или “премиум”, мы не <br> штампуем, мы - создаем.
+                <br>
+                <br>
+                Стоимость разработки фирменного стиля в <br> нашем агентстве начинается от 120 000 руб., <br> финальную планку без брифинга определить
+                <br> невозможно - давайте созвонимся и обсудим <br> ваш проект!
+                <br>
 
-       <span>Каждый клиент нашего агентства получает <br> приятный бонус на финише проекта, о котором <br> мы расскажем ниже ▼</span>
-    </p>
-    <img src="images/lifecare.png" alt="">
-</div>
+                <span>Каждый клиент нашего агентства получает <br> приятный бонус на финише проекта, о котором <br> мы расскажем ниже ▼</span>
+            </p>
+            <img src="images/lifecare.png" alt="">
+        </div>
     </div>
 </section>
 
-                        <!--portfolio-->
+<!--portfolio-->
 <section class="portfolio">
     <div class="container">
         <div class="portfolio_title">
@@ -173,7 +183,7 @@
     </div>
 
 </section>
-                <!--guidelines-->
+<!--guidelines-->
 <section class="guideline">
     <div class="container">
         <h2>Гайдлайны в подарок</h2>
@@ -194,7 +204,7 @@
     </div>
 </section>
 
-                    <!--application form-->
+<!--application form-->
 <section class="application">
     <div class="container">
         <h2>Оставьте заявку на разработку вашего продукта</h2>
@@ -207,17 +217,17 @@
             <label for="tel"></label>
             <input type="phone" id="tel" name="phone" placeholder="+7 (999) 999-99-99">
 
-                <label class="checkbox" for="check_application">
-                    <input class="agree_check" name="agree" type="checkbox" id="check_application"> Я                      принимаю
-                    <a href="#">условия передачи персональных данных</a>
-                </label>
+            <label class="checkbox" for="check_application">
+                <input class="agree_check" name="agree" type="checkbox" id="check_application"> Я                      принимаю
+                <a href="#">условия передачи персональных данных</a>
+            </label>
 
             <button class="btn" type="submit">Оставить заявку</button>
         </form>
     </div>
 </section>
 
-                            <!--process-->
+<!--process-->
 <section class="process">
     <div class="container">
         <h2>Этапы создания <br>фирменного стиля <br>и гайдлайна</h2>
@@ -231,7 +241,7 @@
             <div class="explanation">
                 <div class="steps one">
                     <p>Иследование <br> среды <br>
-                    <span>Изучаем нишу и <br> конкурентное поле,<br>                       находим  подходящую <br> идею будущей <br>                             коммуникации</span>
+                        <span>Изучаем нишу и <br> конкурентное поле,<br>                       находим  подходящую <br> идею будущей <br>                             коммуникации</span>
                     </p>
                 </div>
                 <div class="steps two">
@@ -297,112 +307,112 @@
     </div>
 </section>
 
-                        <!--creative_steps-->
+<!--creative_steps-->
 <section class="creative_steps">
     <div class="container">
-<div class="table">
-    <div class="row">
-        <div class="column_title"></div>
-            <div class="row_content">
-                <div class="cell one">
-                    <h2>Фрилансер</h2>
+        <div class="table">
+            <div class="row">
+                <div class="column_title"></div>
+                <div class="row_content">
+                    <div class="cell one">
+                        <h2>Фрилансер</h2>
+                    </div>
+                    <div class="cell two">
+                        <h2>Free.creative</h2>
+                    </div>
+                    <div class="cell three">
+                        <h2>Большое агентство <br>с именем</h2>
+                    </div>
+
                 </div>
-                <div class="cell two">
-                    <h2>Free.creative</h2>
+            </div>
+            <div class="row">
+                <div class="column_title">
+                    <h3>Философия</h3>
                 </div>
-                <div class="cell three">
-                    <h2>Большое агентство <br>с именем</h2>
+                <div class="row_content">
+                    <div class="cell one">
+                        <p>Часто замотивирован как можно быстрее сделать и получить деньги.</p>
+                    </div>
+                    <div class="cell two">
+                        <p>Опытная команда профессионалов, нацеленная на результат. К каждому проекту относимся как к родному, работаем на качество, а не на количество.</p>
+                    </div>
+                    <div class="cell three">
+                        <p>Огромная сверхопытная команда экстра профессионалов, выдающая проект строго исходя из подписанной сметы и часов человека. Замотивированы делать “большие”
+                            <br>и дорогие проекты.</p>
+                    </div>
+
                 </div>
+            </div>
+            <div class="row">
+                <div class="column_title">
+                    <h3>Уровень <br>дизайна</h3>
+                </div>
+                <div class="row_content">
+                    <div class="cell one">
+                        <p>Как получится....</p>
+                    </div>
+                    <div class="cell two">
+                        <p>Высокий. За нас говорит наше портфолио и клиенты.</p>
+                    </div>
+                    <div class="cell three">
+                        <p>Высокий. За нколлег говорит их портфолио и уровень клиентов.</p>
+                    </div>
 
+                </div>
             </div>
-    </div>
-    <div class="row">
-        <div class="column_title">
-            <h3>Философия</h3>
-        </div>
-        <div class="row_content">
-            <div class="cell one">
-                <p>Часто замотивирован как можно быстрее сделать и получить деньги.</p>
-            </div>
-            <div class="cell two">
-                <p>Опытная команда профессионалов, нацеленная на результат. К каждому проекту относимся как к родному, работаем на качество, а не на количество.</p>
-            </div>
-            <div class="cell three">
-                <p>Огромная сверхопытная команда экстра профессионалов, выдающая проект строго исходя из подписанной сметы и часов человека. Замотивированы делать “большие”
-                    <br>и дорогие проекты.</p>
-            </div>
+            <div class="row">
+                <div class="column_title">
+                    <h3>Стоимость</h3>
+                </div>
+                <div class="row_content">
+                    <div class="cell one">
+                        <p>В 90% случаев дешевле агентства.</p>
+                    </div>
+                    <div class="cell two">
+                        <p>Адекватная рынку и вашей задаче. Каждый кейс для нас – уникальный вызов, мы погружаемся в бриф и выходим с ценовым предложением.</p>
+                    </div>
+                    <div class="cell three">
+                        <p>Высокая, иногда откровенно завышенная, малобюджетные клиенты неинтересны.</p>
+                    </div>
 
-        </div>
-    </div>
-    <div class="row">
-        <div class="column_title">
-            <h3>Уровень <br>дизайна</h3>
-        </div>
-        <div class="row_content">
-            <div class="cell one">
-                <p>Как получится....</p>
+                </div>
             </div>
-            <div class="cell two">
-               <p>Высокий. За нас говорит наше портфолио и клиенты.</p>
-            </div>
-            <div class="cell three">
-                <p>Высокий. За нколлег говорит их портфолио и уровень клиентов.</p>
-            </div>
+            <div class="row">
+                <div class="column_title">
+                    <h3>Отношение <br>к клиенту</h3>
+                </div>
+                <div class="row_content">
+                    <div class="cell one">
+                        <p>Как получится...</p>
+                    </div>
+                    <div class="cell two">
+                        <p>Нас можно назвать настоящими друзьями. Не бросаем в беде <br>и сделаем всё, чтобы решить проблему. На связи 24/7, поддерживаем и консультируем онлайн и офлайн на каждом этапе сотрудничества.</p>
+                    </div>
+                    <div class="cell three">
+                        <p>Коммуникация ведется в рамках выделенных часов и сметы, вам уделяют столько времени, сколько агентство считает нужным. Иногда можно ждать ответ на свой имейл больше дня – это норма. </p>
+                    </div>
 
-        </div>
-    </div>
-    <div class="row">
-        <div class="column_title">
-            <h3>Стоимость</h3>
-        </div>
-        <div class="row_content">
-            <div class="cell one">
-                <p>В 90% случаев дешевле агентства.</p>
+                </div>
             </div>
-            <div class="cell two">
-                <p>Адекватная рынку и вашей задаче. Каждый кейс для нас – уникальный вызов, мы погружаемся в бриф и выходим с ценовым предложением.</p>
-            </div>
-            <div class="cell three">
-                <p>Высокая, иногда откровенно завышенная, малобюджетные клиенты неинтересны.</p>
-            </div>
+            <div class="row">
+                <div class="column_title">
+                    <h3>Сроки</h3>
+                </div>
+                <div class="row_content">
+                    <div class="cell one">
+                        <p>Иногда исполнитель вообще пропадает без связи</p>
+                    </div>
+                    <div class="cell two">
+                        <p>Мы адекватно подходим к срокам в нашем агентстве, не обещаем того, чего не можем выполнить. Чётко менеджерим своё время, чтобы клиент получил всё в срок.</p>
+                    </div>
+                    <div class="cell three">
+                        <p>Долго, несколько уровней менеджмента, бюррократия, очередь из больших клиентов.</p>
+                    </div>
 
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="column_title">
-            <h3>Отношение <br>к клиенту</h3>
-        </div>
-        <div class="row_content">
-            <div class="cell one">
-                <p>Как получится...</p>
-            </div>
-            <div class="cell two">
-                <p>Нас можно назвать настоящими друзьями. Не бросаем в беде <br>и сделаем всё, чтобы решить проблему. На связи 24/7, поддерживаем и консультируем онлайн и офлайн на каждом этапе сотрудничества.</p>
-            </div>
-            <div class="cell three">
-                <p>Коммуникация ведется в рамках выделенных часов и сметы, вам уделяют столько времени, сколько агентство считает нужным. Иногда можно ждать ответ на свой имейл больше дня – это норма. </p>
-            </div>
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="column_title">
-            <h3>Сроки</h3>
-        </div>
-        <div class="row_content">
-            <div class="cell one">
-                <p>Иногда исполнитель вообще пропадает без связи</p>
-            </div>
-            <div class="cell two">
-                <p>Мы адекватно подходим к срокам в нашем агентстве, не обещаем того, чего не можем выполнить. Чётко менеджерим своё время, чтобы клиент получил всё в срок.</p>
-            </div>
-            <div class="cell three">
-                <p>Долго, несколько уровней менеджмента, бюррократия, очередь из больших клиентов.</p>
-            </div>
-
-        </div>
-    </div>
-</div>
     </div>
 </section>
 
@@ -427,7 +437,7 @@
                     <h2>3</h2>
                     <p>Все сотрудники <br> компании строго <br> соблюдают правила <br> коммерческой тайны <br> по вашему проекту,
                         <br> мы
-                         никогда не <br> разглашаем <br> стоимость разработки <br> вашего проекта и <br> любые детали,
+                        никогда не <br> разглашаем <br> стоимость разработки <br> вашего проекта и <br> любые детали,
                         <br> связанные с проектом.
                     </p>
                 </div>
@@ -485,7 +495,7 @@
         <div class="sources">
             <div class="news">
                 <p>История агентства FREE.creative <br>
-                <span>vc.ru</span></p>
+                    <span>vc.ru</span></p>
             </div>
             <div class="news other">
                 <p>Традиции и современность: <br> брендинг ресторана и пекарни «Ешь Хлеб»<br>
@@ -507,6 +517,10 @@
         </div>
     </footer>
 </section>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+<script src="https://kit.fontawesome.com/0148f7d94a.js" crossorigin="anonymous"></script>
 <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="

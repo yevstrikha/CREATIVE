@@ -58,9 +58,9 @@ a{text-decoration: none}
     z-index: 4;
     top: 40%;
     left: 2%;
-    height: 50px;
-    width: 50px;
+
 }
+
 .owl-nav .owl-prev:before {
     content: "\f053";
     color: black;
@@ -68,12 +68,12 @@ a{text-decoration: none}
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
 }
-
 .owl-nav .owl-next{
     position: absolute;
     z-index: 4;
     top: 40%;
     right: 2%;
+
 }
 
 .owl-nav .owl-next:before {
@@ -139,7 +139,7 @@ header .soc{
     line-height: 38px;
 }
 .position{
-    margin-top: -85px;
+    margin-top: -75px;
 }
 .position h1{
     font-family: '20 Kopeek-Book';

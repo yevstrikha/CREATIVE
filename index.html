@@ -8,18 +8,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<div id="dialog" title="Basic dialog">
-    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
-</div>
+<div id="dialog" class="dialog" title="Оставить заявку">
+    <form action="" class="ui_form" method="post" name="contact_form">
+        <label for="first_name"></label>
+        <input type="text" id="first_name"                                placeholder="Ваше Имя">
 
-<button id="opener">Open Dialog</button>
+        <label for="phone"></label>
+        <input type="text" id="phone"                                placeholder="+7 (999) 999-99-99">
+        <label class="checkbox" for="check_ui">
+            <input class="check" type="checkbox" id="check_ui">Я принимаю <a href="#">условия передачи персональных данных</a>
+        </label>
+        <button class="btn" type="submit">Оставить заявку</button>
+    </form>
+
+</div>
 
 <header>
     <div class="container">
@@ -50,14 +58,20 @@
 
 <div class="position">
     <div class="container">
-        <h1>Вам нужен фирменный <br> стиль или ребрендинг?</h1>
-        <p>Разработаем в срок от 10-ти дней</p>
-        <a href="#" class="btn">Портфолио</a>
-        <a href="#" class="btn">Оставить заявку</a>
+        <div class="text">
+            <h1>Вам нужен фирменный <br> стиль или ребрендинг?</h1>
+            <p>Разработаем в срок от 10-ти дней</p>
+            <a href="#" class="btn">Портфолио</a>
+            <a href="#" id="opener" class="btn">Оставить заявку</a>
+
+        </div>
+
     </div>
 </div>
-
-<div class="owl-carousel">
+<div class="bg_media">
+    <img src="images/15.jpg" alt="">
+</div>
+<div class="owl-carousel ">
     <section class="main_banner"></section>
 
     <section class="main_banner banner_2"></section>
@@ -65,8 +79,6 @@
     <section class="main_banner banner_3"></section>
     <section class="main_banner banner_4"></section>
 </div>
-
-
 
 <section class="styles">
     <div class="container">
@@ -87,7 +99,7 @@
 <!--NAME-->
 <section class="name">
     <div class="container">
-        <h2>Название и логотип – важные составляющие <br> фирменного стиля, но на этом всё только <br> начинается. Ниже основные элементы:</h2>
+        <h2>Название и логотип – важные составляющие  фирменного стиля, но на этом всё только  начинается. Ниже основные элементы:</h2>
 
         <div class="numbers">
             <div class="simple1">
@@ -121,19 +133,24 @@
 <!--price-->
 <section class="values">
     <div class="container">
-        <h2>Сколько стоит фирменный стиль?</h2>
+
         <div class="price">
-            <p>Каждая задача по разработке фирменного <br> стиля уникальна для нас — это новый вызов и <br> новые эмоции. Мы принципиально не
-                <br> предлагаем вам стандартизированные пакеты <br> “эконом”, “стандрат”, или “премиум”, мы не <br> штампуем, мы - создаем.
+            <p>Каждая задача по разработке фирменного  стиля уникальна для нас — это новый вызов и  новые эмоции. Мы принципиально не
+                 предлагаем вам стандартизированные пакеты  “эконом”, “стандрат”, или “премиум”, мы не  штампуем, мы - создаем.
                 <br>
                 <br>
-                Стоимость разработки фирменного стиля в <br> нашем агентстве начинается от 120 000 руб., <br> финальную планку без брифинга определить
-                <br> невозможно - давайте созвонимся и обсудим <br> ваш проект!
+                Стоимость разработки фирменного стиля в  нашем агентстве начинается от 120 000 руб.,  финальную планку без брифинга определить
+                 невозможно - давайте созвонимся и обсудим  ваш проект!
                 <br>
 
                 <span>Каждый клиент нашего агентства получает <br> приятный бонус на финише проекта, о котором <br> мы расскажем ниже ▼</span>
             </p>
-            <img src="images/lifecare.png" alt="">
+            <div class="left_text">
+                <h2>Сколько стоит фирменный стиль?</h2>
+                <img src="images/lifecare.png" alt="">
+
+            </div>
+
         </div>
     </div>
 </section>
@@ -188,6 +205,9 @@
     <div class="container">
         <h2>Гайдлайны в подарок</h2>
         <div class="guideline_about">
+            <div class="guideline_img-media">
+                <img src="images/Rectangle29.jpg" alt="">
+            </div>
             <img class="guideline_img" src="images/Rectangle69.png" alt="">
             <div class="guideline_text">
                 <div class="text_top">
@@ -346,7 +366,7 @@
             </div>
             <div class="row">
                 <div class="column_title">
-                    <h3>Уровень <br>дизайна</h3>
+                    <h3>Уровень дизайна</h3>
                 </div>
                 <div class="row_content">
                     <div class="cell one">
@@ -380,7 +400,7 @@
             </div>
             <div class="row">
                 <div class="column_title">
-                    <h3>Отношение <br>к клиенту</h3>
+                    <h3>Отношение к клиенту</h3>
                 </div>
                 <div class="row_content">
                     <div class="cell one">
@@ -517,16 +537,12 @@
         </div>
     </footer>
 </section>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://kit.fontawesome.com/41bcebc9a3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-
-<script src="https://kit.fontawesome.com/0148f7d94a.js" crossorigin="anonymous"></script>
-<script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        crossorigin="anonymous"></script>
-<script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
+
 
 
 </body>

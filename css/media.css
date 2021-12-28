@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1199px) {
-.container{padding: 0 15px}
+.container{padding: 0 5%}
    .d_flex p{
        font-size: 14px;
        line-height: 18px;
@@ -19,6 +19,38 @@
     line-height: 22px;
     margin-right: 30px;
 }
+
+.text{
+        left:7%;
+        max-width: 800px;
+        position: absolute;
+        padding-top: 15%;
+        width: 100%;
+        z-index: 3;
+        align-items: center;
+}
+    .text h1{
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+.text p{
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 55px;
+}
+    .text .btn{
+        font-family: '20 Kopeek';
+        display: inline-block;
+        padding: 19px 47px;
+        background: #fff;
+        border-radius: 40px;
+        color: #181818;
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 20px;
+    }
                         /*style*/
  .style{
      padding-top: 80px;
@@ -39,23 +71,58 @@
     font-size: 16px;
     line-height: 22px;
 }
-    .values h2{
-        margin-bottom: 16px;
-    }
+.name h2{
+    font-size: 45px;
+    line-height: 45px;
+}
+.numbers h2{
+    font-size: 45px;
+    line-height: 45px;
+}
+.numbers p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.simple5 span{
+    font-size: 14px;
+    line-height: 18px;
+}
+.left_text h2{
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 16px;
+}
+.left_text{
+    margin-left: 30px;
+    max-width: 530px;
+    width: 100%;
+}
+.price{
+    justify-content: space-around;
+}
 .price p{
     font-size: 16px;
     line-height: 22px;
-
 }
 .price img{
-    max-width: 530px;
     max-height: 330px;
-    margin-left: 30px;
+    margin: 0;
 }
 .portfolio{
     padding-bottom: 120px;
 }
-
+                    /*portfolia*/
+.portfolio{
+    padding-bottom: 90px;
+}
+.portfolio h2 {
+    font-size: 45px;
+    line-height: 45px;
+}
+.portfolio p{
+    font-size: 16px;
+    line-height: 22px;
+}
                     /*<!--guidelines-->*/
 .guideline h2{
     margin-bottom: 19px;
@@ -96,11 +163,11 @@
         line-height: 22px;
     }
 .application input{
-    max-width: 450px;
     width: 100%;
     padding: 18px 22px;
     font-size: 16px;
 }
+
 
 .btn{
     font-size: 16px;
@@ -140,6 +207,9 @@ input.agree_check{
 }
 .creative_search{
     margin-bottom: 60px;
+}
+.explanation{
+    margin-left:15%;
 }
 
 
@@ -219,7 +289,7 @@ input.agree_check{
     font-size: 20px;
     line-height: 22px;
 }
-.row_content h3{
+.row_content h2{
     font-size: 34px;
     line-height: 37px;
 }
@@ -231,6 +301,10 @@ input.agree_check{
     max-width: 220px;
     width: 100%;
 }
+    .table :first-child .three{
+        max-width: 300px;
+        width: 100%;
+    }
 
 
 
@@ -253,20 +327,118 @@ input.agree_check{
 
 }
 /*@media only screen and (max-width: 1024px) {*/
-/*    .container{max-width: 960px}*/
 /*}*/
 @media only screen and (max-width: 992px) {
-    .container{max-width: 720px}
+    header ul{
+        display: none;
+    }
+    .bg_media{
+        display: contents;
+        width: 100%;
+    }
+    .text{
+        padding-top: 235px;
+        max-width: 500px;
+        width: 100%;
+    }
+    .position h1{
+        color: white;
+    }
+    .text p{
+        color: white;
+        margin-bottom: 75px;
+    }
+    .text .btn{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .owl-carousel{
+        display: none;
+    }
+    .owl-carousel, .main_banner{
+        display: none;
+    }
+    .owl-prev, .owl-next{
+        display: none;
+    }
+    .style_about{
+        display: block;
+        max-width: 450px;
+    }
+    .style_about img{
+        margin-bottom: 30px;
+    }
+ .name h2{
+     max-width: 620px;
+ }
+ .name .numbers{
+     flex-wrap: wrap;
+     justify-content: flex-start;
+ }
+ .simple1, .simple2, .simple3, .simple4, .simple5{
+     margin-right: 100px;
+ }
+ .price{
+     flex-wrap: wrap;
+     justify-content: flex-start; }
+ .values .left_text{
+     margin-left: 0;
+     margin-bottom: 25px;
+     order: -1;
+     width: 100%;
+ }
+ .guideline_about{
+     flex-wrap: wrap;
+ }
+ .guideline_img-media{
+     display: contents;
+ }
+ .guideline_img{
+     display: none;
+ }
+ .guideline_text{
+     margin-left: 0;
+     margin-top: 15px;
+     max-width: 500px;
+ }
+ #F_name{
+     margin-bottom: 20px;
+ }
+ .creative_search{
+     flex-wrap: wrap;
+     justify-content: flex-start;
+ }
+ .img_creative{
+     width: 100%;
+     margin-bottom: 18px;
+ }
+ .explanation{
+     margin: 0;
+ }
+ .row:first-child .column_title{
+     display: none;
+ }
+ .row{
+     flex-wrap: wrap;
+ }
+ .column_title{
+     display: block;
+     margin: 0;
+     max-width: none;
+     width: 100%;
+     border-radius: 5px;
+ }
+    .row:last-child .column_title {
+        border-radius:5px;
+    }
 }
 @media only screen and (max-width: 767px) {
-    .container{max-width: 510px}
+
 }
 @media only screen and (max-width: 420px) {
-    .container{max-width: 390px}
 }
 @media only screen and (max-width: 375px) {
-    .container{width: 100%;
-        padding: 0 15px;}
+
 }
 @media only screen and (max-width: 360px) {
     .container{max-width: 330px}

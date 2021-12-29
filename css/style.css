@@ -85,6 +85,23 @@ font-family: "20 Kopeek-Book";
 .checkbox{
     margin-bottom: 48px;
 }
+.ui-widget .ui-widget{
+    position: absolute;
+    right: -35px;
+    top: -25px;
+    background-image: url("../images/close.svg");
+    width: 31px;
+    height: 31px;
+}
+.ui-icon {
+    width: 31px;
+    height: 31px;
+}
+.ui-icon,.ui-widget-content .ui-icon{
+   display: none;
+}
+.ui-corner-all{
+    border: none;}
 
 
 

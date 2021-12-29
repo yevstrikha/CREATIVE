@@ -37,9 +37,11 @@ a{text-decoration: none}
 
 }
 .ui-dialog{
-    width: 648px !important;
+    max-width: 648px !important;
+    width: 100% !important;
     top: 135px;
-    padding-left: 54px;    }
+    padding-left: 54px;
+}
 
 .ui-widget-header{
     background-color: #fff;
@@ -85,6 +87,23 @@ font-family: "20 Kopeek-Book";
 .checkbox{
     margin-bottom: 48px;
 }
+.ui-widget .ui-widget{
+    position: absolute;
+    right: -35px;
+    top: -25px;
+    background-image: url("../images/close.svg");
+    width: 31px;
+    height: 31px;
+}
+.ui-icon {
+    width: 31px;
+    height: 31px;
+}
+.ui-icon,.ui-widget-content .ui-icon{
+   display: none;
+}
+.ui-corner-all{
+    border: none;}
 
 
 

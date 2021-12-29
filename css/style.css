@@ -34,8 +34,8 @@ a{text-decoration: none}
 .container{
     margin: auto;
     max-width: 1110px;
-
 }
+
 .ui-dialog{
     max-width: 648px !important;
     width: 100% !important;
